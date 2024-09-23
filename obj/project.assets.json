@@ -109,6 +109,22 @@
           }
         }
       },
+      "log4net/2.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1969,7 +1985,7 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/122.0.6261.9400": {
+      "Selenium.WebDriver.ChromeDriver/128.0.6613.11900": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -4002,6 +4018,32 @@
         "lib/net45/Gherkin.xml",
         "lib/netstandard2.0/Gherkin.dll",
         "lib/netstandard2.0/Gherkin.xml"
+      ]
+    },
+    "log4net/2.0.17": {
+      "sha512": "qnnDf/ubJzwm2i1xH7nRMjEDoD+ctse7nZDqb+p7L1PvZc6ykpMoEesWr1/9hFqlsbII2v9e8yyQHJhoDQh7ZA==",
+      "type": "package",
+      "path": "log4net/2.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/log4net.dll",
+        "lib/net20/log4net.xml",
+        "lib/net35/log4net.dll",
+        "lib/net35/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40/log4net.dll",
+        "lib/net40/log4net.xml",
+        "lib/net45/log4net.dll",
+        "lib/net45/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "lib/netstandard1.3/log4net.xml",
+        "lib/netstandard2.0/log4net.dll",
+        "lib/netstandard2.0/log4net.xml",
+        "log4net.2.0.17.nupkg.sha512",
+        "log4net.nuspec",
+        "package-icon.png"
       ]
     },
     "Microsoft.AspNetCore/2.2.0": {
@@ -6246,10 +6288,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/122.0.6261.9400": {
-      "sha512": "u0kWy6d0mp0YxVVHg1+G6yuNi/2+O+eRejc3SdJ1Ep8akq4OsFBOw+VUsW9CAH2jIdX8DWBdsAcu2ZE6TFsA9g==",
+    "Selenium.WebDriver.ChromeDriver/128.0.6613.11900": {
+      "sha512": "IveLZenm7xMa45V7J+oEm9mPZiJvKx7TrsdxgfOy+huBOliOwjLSNNi27/7PHZF9qPiDACaH87Bkb4vbviuFHg==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/122.0.6261.9400",
+      "path": "selenium.webdriver.chromedriver/128.0.6613.11900",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6266,7 +6308,7 @@
         "driver/win32/LICENSE.chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.122.0.6261.9400.nupkg.sha512",
+        "selenium.webdriver.chromedriver.128.0.6613.11900.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -11251,9 +11293,10 @@
       "NUnit3TestAdapter >= 4.1.0",
       "Selenium.Support >= 4.17.0",
       "Selenium.WebDriver >= 4.17.0",
-      "Selenium.WebDriver.ChromeDriver >= 122.0.6261.9400",
+      "Selenium.WebDriver.ChromeDriver >= 128.0.6613.11900",
       "SpecFlow.NUnit >= 3.9.40",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
+      "log4net >= 2.0.17",
       "nunit >= 3.13.2"
     ]
   },
@@ -11263,11 +11306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
+      "projectUniqueName": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
       "projectName": "SpecFlowProject1",
-      "projectPath": "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
+      "projectPath": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
       "packagesPath": "C:\\Users\\gen_n\\.nuget\\packages\\",
-      "outputPath": "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\obj\\",
+      "outputPath": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gen_n\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11338,7 +11381,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[122.0.6261.9400, )"
+            "version": "[128.0.6613.11900, )"
           },
           "SpecFlow.NUnit": {
             "target": "Package",
@@ -11347,6 +11390,10 @@
           "SpecFlow.Plus.LivingDocPlugin": {
             "target": "Package",
             "version": "[3.9.57, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.17, )"
           },
           "nunit": {
             "target": "Package",

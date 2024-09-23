@@ -18,9 +18,10 @@
           "NUnit3TestAdapter": "4.1.0",
           "Selenium.Support": "4.17.0",
           "Selenium.WebDriver": "4.17.0",
-          "Selenium.WebDriver.ChromeDriver": "122.0.6261.9400",
+          "Selenium.WebDriver.ChromeDriver": "128.0.6613.11900",
           "SpecFlow.NUnit": "3.9.40",
           "SpecFlow.Plus.LivingDocPlugin": "3.9.57",
+          "log4net": "2.0.17",
           "NUnit": "3.13.2"
         },
         "runtime": {
@@ -97,6 +98,17 @@
           "lib/netstandard2.0/Gherkin.dll": {
             "assemblyVersion": "19.0.3.0",
             "fileVersion": "19.0.3.0"
+          }
+        }
+      },
+      "log4net/2.0.17": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "2.0.17.0",
+            "fileVersion": "2.0.17.0"
           }
         }
       },
@@ -1381,7 +1393,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/122.0.6261.9400": {},
+      "Selenium.WebDriver.ChromeDriver/128.0.6613.11900": {},
       "SharpCompress/0.23.0": {
         "dependencies": {
           "System.Text.Encoding.CodePages": "4.5.1"
@@ -2438,6 +2450,13 @@
       "path": "gherkin/19.0.3",
       "hashPath": "gherkin.19.0.3.nupkg.sha512"
     },
+    "log4net/2.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qnnDf/ubJzwm2i1xH7nRMjEDoD+ctse7nZDqb+p7L1PvZc6ykpMoEesWr1/9hFqlsbII2v9e8yyQHJhoDQh7ZA==",
+      "path": "log4net/2.0.17",
+      "hashPath": "log4net.2.0.17.nupkg.sha512"
+    },
     "Microsoft.AspNetCore/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -3117,12 +3136,12 @@
       "path": "selenium.webdriver/4.17.0",
       "hashPath": "selenium.webdriver.4.17.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/122.0.6261.9400": {
+    "Selenium.WebDriver.ChromeDriver/128.0.6613.11900": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-u0kWy6d0mp0YxVVHg1+G6yuNi/2+O+eRejc3SdJ1Ep8akq4OsFBOw+VUsW9CAH2jIdX8DWBdsAcu2ZE6TFsA9g==",
-      "path": "selenium.webdriver.chromedriver/122.0.6261.9400",
-      "hashPath": "selenium.webdriver.chromedriver.122.0.6261.9400.nupkg.sha512"
+      "sha512": "sha512-IveLZenm7xMa45V7J+oEm9mPZiJvKx7TrsdxgfOy+huBOliOwjLSNNi27/7PHZF9qPiDACaH87Bkb4vbviuFHg==",
+      "path": "selenium.webdriver.chromedriver/128.0.6613.11900",
+      "hashPath": "selenium.webdriver.chromedriver.128.0.6613.11900.nupkg.sha512"
     },
     "SharpCompress/0.23.0": {
       "type": "package",

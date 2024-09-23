@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj": {}
+    "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj": {}
   },
   "projects": {
-    "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj": {
+    "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
+        "projectUniqueName": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
         "projectName": "SpecFlowProject1",
-        "projectPath": "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
+        "projectPath": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
         "packagesPath": "C:\\Users\\gen_n\\.nuget\\packages\\",
-        "outputPath": "D:\\Trimark\\Portfolio Historical Trend Page\\SpecFlowProject1\\obj\\",
+        "outputPath": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gen_n\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,7 +82,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[122.0.6261.9400, )"
+              "version": "[128.0.6613.11900, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
@@ -91,6 +91,10 @@
             "SpecFlow.Plus.LivingDocPlugin": {
               "target": "Package",
               "version": "[3.9.57, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
             },
             "nunit": {
               "target": "Package",
