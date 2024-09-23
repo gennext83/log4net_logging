@@ -11306,11 +11306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
+      "projectUniqueName": "D:\\Log4Net_New_updated\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
       "projectName": "SpecFlowProject1",
-      "projectPath": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
+      "projectPath": "D:\\Log4Net_New_updated\\Portfolio Historical Trend Page\\SpecFlowProject1\\SpecFlowProject1.csproj",
       "packagesPath": "C:\\Users\\gen_n\\.nuget\\packages\\",
-      "outputPath": "D:\\Log4Net_New\\Portfolio Historical Trend Page\\SpecFlowProject1\\obj\\",
+      "outputPath": "D:\\Log4Net_New_updated\\Portfolio Historical Trend Page\\SpecFlowProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gen_n\\AppData\\Roaming\\NuGet\\NuGet.Config",
